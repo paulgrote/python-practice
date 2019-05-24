@@ -1,6 +1,6 @@
 5/25/2019 Things I did:
 
-1. Created Github account and installed Github deskop on all my devices.
+1. Created a Github account and installed Github deskop on all my devices.
 
 2. read_file.py
 	* Reading a file and printing its contents.
@@ -10,3 +10,10 @@
 	
 4. user_input_to_file.py
 	* Requesting input from a user and appending to a file.
+	
+	
+What I want to do next:
+
+- Append values/lines to a CSV file
+- Request n inputs from the user and save them as a line of a CSV file.
+- Create a GUI that includes text fields for user input.
