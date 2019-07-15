@@ -3,3 +3,5 @@ testthis is my textnew text
 more new text
 Hello
 thing
+hello
+hello

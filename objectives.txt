@@ -2,6 +2,7 @@ Objectives:
 
 X Copy contents of one file to another file.
 X Request input from the user and save/append their input to a .txt file.
+
 - Append values/lines to a CSV file
 - Request n inputs from the user and save them as a line of a CSV file.
 - Create a GUI that includes text fields for user input.
