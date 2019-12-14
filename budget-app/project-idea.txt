@@ -1,0 +1,12 @@
+Project idea: app that reads csv file from bank or credit card statement, analyzes the data, and provides a summary and data visualization.
+
+Requirements:
+- Read/process .csv files
+- Parse data from .csv files with different types of data, number formats, or order of data
+- Display a combined list of transactions from multiple .csv files
+- Interprets, maintains/updates list of known categories, sub-categories, and vendors
+- Interprets vendor names and creates/appends names to list of known vendors
+- Provides UI for user to update vendor and category list
+- Sort transactions by the following hierarchy: Category, Sub-category, Vendor
+- Dynamically display or hide totals for each category, sub-category, and vendor
+- Display spending totals as a percentage of my income
