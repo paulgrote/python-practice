@@ -1,0 +1,13 @@
+Python Study Notes
+
+Data Structures
+
+- Lists
+	- Consist of variable name, assignment operator, and values within square brackets [] separated by a comma.
+	- Things you can do with lists:
+		* Access elements within lists using the index in brackets [].
+		* Include lists within lists.
+		* Copy using a colon [:]
+	
+New Functions
+- id() Returns the storage location in memory for a variable.
