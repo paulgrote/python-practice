@@ -47,3 +47,7 @@
     - Programs produce different answer than expected
 
 ### Ended at 28:10, slide 23, beginning of Ch 2
+
+## What is the difference between scalar and non-scalar objects?
+- Scalar objects are indivisible
+- Non-scalar objects have internal structure
