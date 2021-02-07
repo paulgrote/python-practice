@@ -1,25 +1,21 @@
 class User():
-
+    '''
+    Creates a user
+    '''
     def __init__(self, first_name, last_name):
         self.first_name = first_name
         self.last_name = last_name
-        self.user_name = first_name + last_name
-        self.password = 'defaultpassword'
-        self.login_attempts = 0
+        self.email_address = first_name.lower() + last_name.lower() + '@outlook.com'
+        self.password = 'admin123'
 
     def describe_user(self):
-        print('Your user name is ' + self.user_name + '.')
-        print('Your password is ' + self.password + '.')
-    
+        print('Your credentials:')
+        print('User name: ' + self.email_address)
+        print('Password: ' + self.password)
     def greet_user(self):
-        print('Hello ' + self.first_name + ' ' + self.last_name)
-        
-    def increment_login_attempts(self):
-        
+        print('Hello, ' + self.first_name + ' ' + self.last_name)
 
-    def reset_login_attempts(self):
-        self.login_attempts = 0
-
+# create several instances representing different users, and call both methods for each user
 user1 = User('Paul', 'Grote')
 user2 = User('Evander', 'Holyfield')
 user3 = User('Clark', 'Kent')
